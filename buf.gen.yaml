@@ -1,0 +1,13 @@
+version: v1
+managed:
+  enabled: true
+plugins:
+  - name: ts
+    out: .
+    strategy: all
+    opt:
+      - add_pb_suffix
+      - ts_nocheck
+      - eslint_disable
+      - output_javascript
+      - long_type_number
