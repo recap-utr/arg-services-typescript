@@ -17,6 +17,7 @@ jobs:
         with:
           version: "3.x"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+      - run: "npm i -g @protobuf-ts/plugin@^2.8"
       - uses: cycjimmy/semantic-release-action@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -28,4 +29,3 @@ jobs:
             @semantic-release/changelog@^6
             @semantic-release/exec@^6
             conventional-changelog-conventionalcommits@^5
-            @protobuf-ts/plugin@^2.8
