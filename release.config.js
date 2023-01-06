@@ -31,7 +31,7 @@ const config = {
       "@semantic-release/exec",
       {
         prepareCmd:
-          "buf generate --include-imports buf.build/recap/arg-services",
+          "buf mod update && buf generate --include-imports buf.build/recap/arg-services",
       },
     ],
     [
@@ -52,6 +52,12 @@ const config = {
       "@semantic-release/git",
       {
         message: "chore(release): ${nextRelease.version}",
+        assets: [
+          "CHANGELOG.md",
+          "package.json",
+          "package-lock.json",
+          "buf.lock",
+        ],
       },
     ],
   ],
