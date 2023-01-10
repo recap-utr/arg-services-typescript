@@ -16,8 +16,9 @@
     "src"
   ],
   "exports": {
-    "./google/*": "./src/google/*",
-    "./*": "./src/arg_services/*"
+    "./google/*": "./src/google/*.js",
+    "./package": "./package.json",
+    "./*": "./src/arg_services/*.js"
   },
   "homepage": "https://github.com/recap-utr/arg-services-typescript#readme",
   "keywords": [
