@@ -11,6 +11,7 @@
   "bugs": {
     "url": "https://github.com/recap-utr/arg-services-typescript/issues"
   },
+  "type": "module",
   "files": [
     "src"
   ],
