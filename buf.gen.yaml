@@ -2,12 +2,10 @@ version: v1
 managed:
   enabled: true
 plugins:
-  - name: ts
-    out: .
-    strategy: all
-    opt:
-      - add_pb_suffix
-      - ts_nocheck
-      - eslint_disable
-      - output_javascript
-      - long_type_number
+  - name: es
+    out: src
+    opt: target=js+dts
+  - name: connect-web
+    out: src
+    opt: target=js+dts
+# PATH="./node_modules/.bin/:$PATH" buf generate buf.build/recap/arg-services --include-imports

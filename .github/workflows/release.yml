@@ -18,7 +18,9 @@ jobs:
         with:
           version: "3.x"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-      - run: "npm i -g @protobuf-ts/plugin@^2.8"
+      - run: |
+          npm ci --include=dev
+          echo "./node_modules/.bin" >> $GITHUB_PATH
       - uses: cycjimmy/semantic-release-action@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

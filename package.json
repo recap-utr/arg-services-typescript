@@ -11,11 +11,14 @@
   "bugs": {
     "url": "https://github.com/recap-utr/arg-services-typescript/issues"
   },
-  "homepage": "https://github.com/recap-utr/arg-services-typescript#readme",
-  "dependencies": {
-    "@grpc/grpc-js": "^1.8.0",
-    "@protobuf-ts/runtime": "^2.8.2"
+  "files": [
+    "src"
+  ],
+  "exports": {
+    "./google/*": "./src/google/*",
+    "./*": "./src/arg_services/*"
   },
+  "homepage": "https://github.com/recap-utr/arg-services-typescript#readme",
   "keywords": [
     "microservices",
     "grpc",
@@ -25,5 +28,13 @@
     "cbr",
     "nlp",
     "similarity"
-  ]
+  ],
+  "dependencies": {
+    "@bufbuild/connect-web": "^0.6.0",
+    "@bufbuild/protobuf": "^1.0.0"
+  },
+  "devDependencies": {
+    "@bufbuild/protoc-gen-connect-web": "^0.6.0",
+    "@bufbuild/protoc-gen-es": "^1.0.0"
+  }
 }
