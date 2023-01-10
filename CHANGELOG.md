@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.0-beta.2](https://github.com/recap-utr/arg-services-typescript/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2023-01-10)
+
+
+### Bug Fixes
+
+* add js ending to exports ([d58d3d2](https://github.com/recap-utr/arg-services-typescript/commit/d58d3d2fa1414d2557cb262abeebcd0a636b58d4))
+* declare package as module ([c78acb7](https://github.com/recap-utr/arg-services-typescript/commit/c78acb7900183cb9506bf0fca736bceb48ec201c))
+
 ## [2.0.0-beta.1](https://github.com/recap-utr/arg-services-typescript/compare/v1.0.3...v2.0.0-beta.1) (2023-01-10)
 
 
