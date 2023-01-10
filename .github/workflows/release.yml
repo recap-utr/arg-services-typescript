@@ -26,7 +26,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         with:
-          semantic_version: ^20
+          semantic_version: ^19
           extra_plugins: |
             @semantic-release/git@^10
             @semantic-release/changelog@^6
