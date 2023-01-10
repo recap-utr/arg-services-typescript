@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0-beta.1](https://github.com/recap-utr/arg-services-typescript/compare/v1.0.3...v2.0.0-beta.1) (2023-01-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* switch to protobuf-es and connect-web
+
+### Features
+
+* switch to protobuf-es and connect-web ([f89ae2d](https://github.com/recap-utr/arg-services-typescript/commit/f89ae2d42b68f344f86f6e1f78b084baace14929))
+
 ## [1.0.3](https://github.com/recap-utr/arg-services-typescript/compare/v1.0.2...v1.0.3) (2023-01-06)
 
 
