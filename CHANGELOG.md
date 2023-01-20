@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0-beta.3](https://github.com/recap-utr/arg-services-typescript/compare/v2.0.0-beta.2...v2.0.0-beta.3) (2023-01-20)
+
+
+### Features
+
+* bundle uuid and library version in index ([558aef1](https://github.com/recap-utr/arg-services-typescript/commit/558aef1ee8cc1bc1bb029ef737802379ff4ffab1))
+
 ## [2.0.0-beta.2](https://github.com/recap-utr/arg-services-typescript/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2023-01-10)
 
 
