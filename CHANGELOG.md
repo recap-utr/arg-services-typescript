@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.0-beta.6](https://github.com/recap-utr/arg-services-typescript/compare/v2.0.0-beta.5...v2.0.0-beta.6) (2023-01-20)
+
+
+### Bug Fixes
+
+* add @types/uuid to deps ([4255d97](https://github.com/recap-utr/arg-services-typescript/commit/4255d975f111ff0cc88fd363b6d0f77b21277342))
+* externalize all dependencies ([16c8d17](https://github.com/recap-utr/arg-services-typescript/commit/16c8d1713dc436d92d2488e11cb9e0d0e355a737))
+
 ## [2.0.0-beta.5](https://github.com/recap-utr/arg-services-typescript/compare/v2.0.0-beta.4...v2.0.0-beta.5) (2023-01-20)
 
 
