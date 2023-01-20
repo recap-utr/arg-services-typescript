@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0-beta.5](https://github.com/recap-utr/arg-services-typescript/compare/v2.0.0-beta.4...v2.0.0-beta.5) (2023-01-20)
+
+
+### Bug Fixes
+
+* bump version ([c08cb47](https://github.com/recap-utr/arg-services-typescript/commit/c08cb47a7473c00826cecb2bb30393268ad59365))
+
 ## [2.0.0-beta.4](https://github.com/recap-utr/arg-services-typescript/compare/v2.0.0-beta.3...v2.0.0-beta.4) (2023-01-20)
 
 
