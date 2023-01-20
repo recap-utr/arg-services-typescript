@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0-beta.4](https://github.com/recap-utr/arg-services-typescript/compare/v2.0.0-beta.3...v2.0.0-beta.4) (2023-01-20)
+
+
+### Bug Fixes
+
+* remove uuid export due to downstream errors ([2bee3bc](https://github.com/recap-utr/arg-services-typescript/commit/2bee3bc408a1782cf3a7ad6d917373362c3e9ffe))
+
 ## [2.0.0-beta.3](https://github.com/recap-utr/arg-services-typescript/compare/v2.0.0-beta.2...v2.0.0-beta.3) (2023-01-20)
 
 
