@@ -1,5 +1,27 @@
 # Changelog
 
+## [2.0.0](https://github.com/recap-utr/arg-services-typescript/compare/v1.0.3...v2.0.0) (2023-01-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* switch to protobuf-es and connect-web
+
+### Features
+
+* bundle uuid and library version in index ([558aef1](https://github.com/recap-utr/arg-services-typescript/commit/558aef1ee8cc1bc1bb029ef737802379ff4ffab1))
+* switch to protobuf-es and connect-web ([f89ae2d](https://github.com/recap-utr/arg-services-typescript/commit/f89ae2d42b68f344f86f6e1f78b084baace14929))
+
+
+### Bug Fixes
+
+* add @types/uuid to deps ([4255d97](https://github.com/recap-utr/arg-services-typescript/commit/4255d975f111ff0cc88fd363b6d0f77b21277342))
+* add js ending to exports ([d58d3d2](https://github.com/recap-utr/arg-services-typescript/commit/d58d3d2fa1414d2557cb262abeebcd0a636b58d4))
+* bump version ([c08cb47](https://github.com/recap-utr/arg-services-typescript/commit/c08cb47a7473c00826cecb2bb30393268ad59365))
+* declare package as module ([c78acb7](https://github.com/recap-utr/arg-services-typescript/commit/c78acb7900183cb9506bf0fca736bceb48ec201c))
+* externalize all dependencies ([16c8d17](https://github.com/recap-utr/arg-services-typescript/commit/16c8d1713dc436d92d2488e11cb9e0d0e355a737))
+* remove uuid export due to downstream errors ([2bee3bc](https://github.com/recap-utr/arg-services-typescript/commit/2bee3bc408a1782cf3a7ad6d917373362c3e9ffe))
+
 ## [2.0.0-beta.6](https://github.com/recap-utr/arg-services-typescript/compare/v2.0.0-beta.5...v2.0.0-beta.6) (2023-01-20)
 
 

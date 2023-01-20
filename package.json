@@ -1,6 +1,6 @@
 {
   "name": "arg-services",
-  "version": "2.0.0-beta.6",
+  "version": "2.0.0",
   "description": "Protobuf and gRPC definitions for microservice-based argumentation machines",
   "scripts": {
     "dev": "vite",
