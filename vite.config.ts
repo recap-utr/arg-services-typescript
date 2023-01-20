@@ -3,6 +3,9 @@ import path from "path";
 import { defineConfig } from "vite";
 import dts from "vite-plugin-dts";
 
+const external = (id: string) =>
+  !id.startsWith("\0") && !id.startsWith(".") && !id.startsWith("/");
+
 export default defineConfig({
   plugins: [dts()],
   build: {
@@ -12,7 +15,7 @@ export default defineConfig({
       formats: ["es"],
     },
     rollupOptions: {
-      external: ["uuid"],
+      external,
     },
   },
 });
