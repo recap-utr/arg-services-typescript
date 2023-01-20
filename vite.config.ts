@@ -8,9 +8,11 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "arg-services",
       fileName: "index",
       formats: ["es"],
+    },
+    rollupOptions: {
+      external: ["uuid"],
     },
   },
 });
