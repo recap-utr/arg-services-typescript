@@ -3,9 +3,8 @@ managed:
   enabled: true
 plugins:
   - name: es
-    out: src
+    out: gen
     opt: target=js+dts
   - name: connect-web
-    out: src
+    out: gen
     opt: target=js+dts
-# PATH="./node_modules/.bin/:$PATH" buf generate buf.build/recap/arg-services --include-imports
