@@ -19,11 +19,12 @@
   "type": "module",
   "files": [
     "gen",
+    "dist"
   ],
   "exports": {
-    "./google/*": "./src/google/*.js",
-    "./package": "./package.json",
-    "./*": "./src/arg_services/*.js"
+    ".": "./dist/index.js",
+    "./google/*": "./gen/google/*.js",
+    "./*": "./gen/arg_services/*.js"
   },
   "homepage": "https://github.com/recap-utr/arg-services-typescript#readme",
   "keywords": [
@@ -47,6 +48,7 @@
     "@types/node": "^18.11.18",
     "@types/uuid": "^9.0.0",
     "typescript": "^4.9.4",
-    "vite": "^4.0.4"
+    "vite": "^4.0.4",
+    "vite-plugin-dts": "^1.7.1"
   }
 }
