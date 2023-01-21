@@ -27,26 +27,15 @@ const config = {
       },
     ],
     [
-      // Buf
-      "@semantic-release/exec",
-      {
-        prepareCmd: [
-          "buf mod update",
-          "buf generate --include-imports buf.build/recap/arg-services",
-          "npm run build",
-        ].join(" && "),
-      },
-    ],
-    [
       "@semantic-release/npm",
       {
-        tarballDir: "dist",
+        tarballDir: "artifacts",
       },
     ],
     [
       "@semantic-release/github",
       {
-        assets: "dist/*.tgz",
+        assets: "artifacts/*.tgz",
         failComment: false,
         addReleases: "bottom",
       },

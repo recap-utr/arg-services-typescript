@@ -11,4 +11,4 @@ Documentation can be found at the [Buf Schema Registry](https://buf.build/recap/
 
 ## Build Locally
 
-`PATH="./node_modules/.bin/:$PATH" buf generate buf.build/recap/arg-services --include-imports`
+`npm run build`
