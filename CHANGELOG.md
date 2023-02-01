@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/recap-utr/arg-services-typescript/compare/v2.0.0...v2.1.0) (2023-02-01)
+
+
+### Features
+
+* bump arg-services to v1.1.0 ([226868f](https://github.com/recap-utr/arg-services-typescript/commit/226868fb6c3fd56acb8881a84cb23927d7f84cf6))
+
 ## [2.0.0](https://github.com/recap-utr/arg-services-typescript/compare/v1.0.3...v2.0.0) (2023-01-20)
 
 
