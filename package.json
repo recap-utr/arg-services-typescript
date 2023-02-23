@@ -39,7 +39,7 @@
     "similarity"
   ],
   "dependencies": {
-    "@bufbuild/connect-web": "^0.6.0",
+    "@bufbuild/connect-web": "^0.8.0",
     "@bufbuild/protobuf": "^1.0.0",
     "uuid": "^9.0.0",
     "@types/uuid": "^9.0.0"
