@@ -39,17 +39,17 @@
     "similarity"
   ],
   "dependencies": {
-    "@bufbuild/connect-web": "^0.6.0",
+    "@bufbuild/connect": "^0.8.0",
     "@bufbuild/protobuf": "^1.0.0",
     "uuid": "^9.0.0",
-    "@types/uuid": "^9.0.0"
+    "@types/uuid": "^9.0.1"
   },
   "devDependencies": {
-    "@bufbuild/protoc-gen-connect-web": "^0.6.0",
+    "@bufbuild/protoc-gen-connect-es": "^0.8.0",
     "@bufbuild/protoc-gen-es": "^1.0.0",
-    "@types/node": "^18.11.18",
-    "typescript": "^4.9.4",
-    "vite": "^4.0.4",
-    "vite-plugin-dts": "^2.0.0"
+    "@types/node": "^18.14.1",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4",
+    "vite-plugin-dts": "^2.0.2"
   }
 }
