@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0](https://github.com/recap-utr/arg-services-typescript/compare/v2.2.0...v2.3.0) (2023-02-24)
+
+
+### Features
+
+* migrate to new bufbuild/connect dependencies ([85f3870](https://github.com/recap-utr/arg-services-typescript/commit/85f3870cb31b0fb1fd796ae65439c8914f31aab1))
+
 ## [2.2.0](https://github.com/recap-utr/arg-services-typescript/compare/v2.1.0...v2.2.0) (2023-02-16)
 
 
