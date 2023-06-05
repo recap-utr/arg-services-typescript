@@ -397,3 +397,5 @@ gradle-app.setting
 
 .idea/
 gen/
+.envrc
+.direnv/
