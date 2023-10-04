@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.1](https://github.com/recap-utr/arg-services-typescript/compare/v2.5.0...v2.5.1) (2023-10-04)
+
+
+### Bug Fixes
+
+* bump deps ([dedac6e](https://github.com/recap-utr/arg-services-typescript/commit/dedac6ee0739ec45dae94e21a05a8fdeefb846df))
+
 ## [2.5.0](https://github.com/recap-utr/arg-services-typescript/compare/v2.4.1...v2.5.0) (2023-06-20)
 
 
