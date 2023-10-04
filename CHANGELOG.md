@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.2](https://github.com/recap-utr/arg-services-typescript/compare/v2.5.1...v2.5.2) (2023-10-04)
+
+
+### Bug Fixes
+
+* use proper entrypoint for d.ts files ([3c6e9b5](https://github.com/recap-utr/arg-services-typescript/commit/3c6e9b5b265d901f524ea516b5a78eed0532c062))
+
 ## [2.5.1](https://github.com/recap-utr/arg-services-typescript/compare/v2.5.0...v2.5.1) (2023-10-04)
 
 
