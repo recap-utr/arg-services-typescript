@@ -15,7 +15,7 @@
       perSystem = {pkgs, ...}: {
         devShells.default = pkgs.mkShell {
           shellHook = "npm install";
-          packages = with pkgs; [nodejs-18_x];
+          packages = with pkgs; [nodejs_20];
         };
       };
     };
