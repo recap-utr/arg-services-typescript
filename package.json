@@ -4,7 +4,7 @@
   "description": "Protobuf and gRPC definitions for microservice-based argumentation machines",
   "scripts": {
     "dev": "vite",
-    "build": "buf mod update && buf generate --include-imports buf.build/recap/arg-services && tsc && vite build",
+    "build": "nix run .#bufGenerate && tsc && vite build",
     "preview": "vite preview",
     "prepack": "npm run build"
   },
