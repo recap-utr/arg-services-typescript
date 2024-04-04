@@ -1,5 +1,22 @@
 # Changelog
 
+## [3.0.0](https://github.com/recap-utr/arg-services-typescript/compare/v2.5.3...v3.0.0) (2024-04-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* We switched from `@bufbuild/connect` to `@connectrpc/connect`, so please update your imports accordingly.
+
+### Features
+
+* update build process and dependencies ([2bab292](https://github.com/recap-utr/arg-services-typescript/commit/2bab2926563411377cf425c2b1179b39592f8893))
+
+
+### Bug Fixes
+
+* bump arg-services to v1.4.3 ([48ab697](https://github.com/recap-utr/arg-services-typescript/commit/48ab697d8f5a7a0cb0fa7cf236320061c442471a))
+* bump arg-services to v1.4.4 ([57ca30c](https://github.com/recap-utr/arg-services-typescript/commit/57ca30c1fe9f7dc18c8e1ddff32b2683b102a296))
+
 ## [2.5.3](https://github.com/recap-utr/arg-services-typescript/compare/v2.5.2...v2.5.3) (2023-10-26)
 
 
