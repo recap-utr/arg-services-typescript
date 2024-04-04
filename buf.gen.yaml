@@ -2,9 +2,9 @@ version: v1
 managed:
   enabled: true
 plugins:
-  - name: es
+  - plugin: buf.build/bufbuild/es:v1.8.0
     out: gen
     opt: target=js+dts
-  - name: connect-es
+  - plugin: buf.build/connectrpc/es:v1.4.0
     out: gen
     opt: target=js+dts

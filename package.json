@@ -39,14 +39,12 @@
     "similarity"
   ],
   "dependencies": {
-    "@bufbuild/connect": "^0.13",
-    "@bufbuild/protobuf": "^1",
+    "@connectrpc/connect": "^1.4",
+    "@bufbuild/protobuf": "^1.8",
     "@types/uuid": "^9",
     "uuid": "^9"
   },
   "devDependencies": {
-    "@bufbuild/protoc-gen-connect-es": "^0.13",
-    "@bufbuild/protoc-gen-es": "^1",
     "@types/node": "^20",
     "typescript": "^5",
     "vite": "^5",
