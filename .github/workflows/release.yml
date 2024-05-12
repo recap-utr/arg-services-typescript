@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: DeterminateSystems/nix-installer-action@v10
+      - uses: DeterminateSystems/nix-installer-action@v11
       - uses: DeterminateSystems/magic-nix-cache-action@v4
       - run: nix profile install .#releaseEnv
       - run: npm ci --include=dev
