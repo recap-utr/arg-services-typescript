@@ -41,7 +41,7 @@
   "dependencies": {
     "@connectrpc/connect": "^1.4",
     "@bufbuild/protobuf": "^1.8",
-    "uuid": "^9"
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
