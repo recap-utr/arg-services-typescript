@@ -48,6 +48,6 @@
     "@types/uuid": "^9",
     "typescript": "^5",
     "vite": "^5",
-    "vite-plugin-dts": "^3"
+    "vite-plugin-dts": "^4.0.0"
   }
 }
