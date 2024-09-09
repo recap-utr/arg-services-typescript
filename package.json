@@ -39,15 +39,15 @@
     "similarity"
   ],
   "dependencies": {
-    "@connectrpc/connect": "^1.4",
-    "@bufbuild/protobuf": "^1.8",
-    "uuid": "^10.0.0"
+    "@connectrpc/connect": "^1",
+    "@bufbuild/protobuf": "^1",
+    "uuid": "^10"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/uuid": "^9",
+    "@types/node": "^22",
+    "@types/uuid": "^10",
     "typescript": "^5",
     "vite": "^5",
-    "vite-plugin-dts": "^4.0.0"
+    "vite-plugin-dts": "^4"
   }
 }
