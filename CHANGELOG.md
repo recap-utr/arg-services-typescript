@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.2](https://github.com/recap-utr/arg-services-typescript/compare/v3.1.1...v3.1.2) (2024-10-27)
+
+
+### Bug Fixes
+
+* **deps:** bump uuid to v11 ([00fd543](https://github.com/recap-utr/arg-services-typescript/commit/00fd54330060447bc3ddafcbedea3afa923d4cb8))
+
 ## [3.1.1](https://github.com/recap-utr/arg-services-typescript/compare/v3.1.0...v3.1.1) (2024-04-09)
 
 
