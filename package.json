@@ -41,11 +41,10 @@
   "dependencies": {
     "@connectrpc/connect": "^1",
     "@bufbuild/protobuf": "^1",
-    "uuid": "^10"
+    "uuid": "^11"
   },
   "devDependencies": {
     "@types/node": "^22",
-    "@types/uuid": "^10",
     "typescript": "^5",
     "vite": "^5",
     "vite-plugin-dts": "^4"
