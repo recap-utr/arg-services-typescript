@@ -39,7 +39,7 @@
     "similarity"
   ],
   "dependencies": {
-    "@connectrpc/connect": "^1",
+    "@connectrpc/connect": "^2.0.0",
     "@bufbuild/protobuf": "^1",
     "uuid": "^11"
   },
