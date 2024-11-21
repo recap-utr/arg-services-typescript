@@ -4,7 +4,7 @@
   "description": "Protobuf and gRPC definitions for microservice-based argumentation machines",
   "scripts": {
     "dev": "vite",
-    "build": "nix run .#bufGenerate && tsc && vite build",
+    "build": "buf generate && tsc && vite build",
     "preview": "vite preview",
     "prepack": "npm run build"
   },
@@ -39,14 +39,15 @@
     "similarity"
   ],
   "dependencies": {
-    "@connectrpc/connect": "^1",
-    "@bufbuild/protobuf": "^1",
+    "@bufbuild/protobuf": "^2",
+    "@connectrpc/connect": "^2",
     "uuid": "^11"
   },
   "devDependencies": {
+    "@bufbuild/protoc-gen-es": "^2",
     "@types/node": "^22",
     "typescript": "^5",
-    "vite": "^5",
-    "vite-plugin-dts": "^4"
+    "vite-plugin-dts": "^4",
+    "vite": "^5"
   }
 }

@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: DeterminateSystems/nix-installer-action@v16
       - uses: DeterminateSystems/magic-nix-cache-action@v8
-      - run: nix profile install .#releaseEnv
+      - run: nix profile install .#release-env
       - run: npm ci --include=dev
       - uses: cycjimmy/semantic-release-action@v4
         env:
@@ -18,9 +18,9 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           BUF_TOKEN: ${{ secrets.BUF_TOKEN }}
         with:
-          semantic_version: ^23
+          semantic_version: ^24
           extra_plugins: |
             @semantic-release/git@^10
             @semantic-release/changelog@^6
             @semantic-release/exec@^6
-            conventional-changelog-conventionalcommits@^7
+            conventional-changelog-conventionalcommits@^8
