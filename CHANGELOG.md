@@ -1,5 +1,15 @@
 # Changelog
 
+## [4.0.0](https://github.com/recap-utr/arg-services-typescript/compare/v3.1.2...v4.0.0) (2024-11-21)
+
+### ⚠ BREAKING CHANGES
+
+* Please refer to the migration guides for [connect](https://github.com/connectrpc/connect-es/blob/main/MIGRATING.md) and [protobuf](https://github.com/bufbuild/protobuf-es/blob/main/MANUAL.md#migrating-from-version-1)
+
+### Features
+
+* migrate to protobuf/connect v2 ([afe36f8](https://github.com/recap-utr/arg-services-typescript/commit/afe36f8c7b4ef7786bdce4eea069eb407c74a17b))
+
 ## [3.1.2](https://github.com/recap-utr/arg-services-typescript/compare/v3.1.1...v3.1.2) (2024-10-27)
 
 
