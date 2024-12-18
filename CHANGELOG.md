@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.1](https://github.com/recap-utr/arg-services-typescript/compare/v4.0.0...v4.0.1) (2024-12-18)
+
+### Bug Fixes
+
+* **deps:** bump arg-services to v1.5.2 ([293aae1](https://github.com/recap-utr/arg-services-typescript/commit/293aae1f1c47e9d099ea4b21d9af4a6b243fb5a0))
+
 ## [4.0.0](https://github.com/recap-utr/arg-services-typescript/compare/v3.1.2...v4.0.0) (2024-11-21)
 
 ### ⚠ BREAKING CHANGES
