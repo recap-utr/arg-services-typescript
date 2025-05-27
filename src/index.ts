@@ -1,2 +1,4 @@
 export { v1 as uuid } from "uuid";
-export { version } from "../package.json";
+import packageJson from "../package.json" with { type: "json" };
+
+export const version = packageJson.version;
