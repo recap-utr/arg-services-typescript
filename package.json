@@ -2,52 +2,52 @@
   "name": "arg-services",
   "version": "4.0.4",
   "description": "Protobuf and gRPC definitions for microservice-based argumentation machines",
+  "keywords": [
+    "argumentation",
+    "cbr",
+    "graphs",
+    "grpc",
+    "microservices",
+    "nlp",
+    "protobuf",
+    "similarity"
+  ],
+  "homepage": "https://github.com/recap-utr/arg-services-typescript#readme",
+  "bugs": {
+    "url": "https://github.com/recap-utr/arg-services-typescript/issues"
+  },
+  "license": "MIT",
+  "author": "Mirko Lenz <info@mirko-lenz.de>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recap-utr/arg-services-typescript.git"
+  },
+  "files": [
+    "gen",
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./google/*": "./gen/google/*.js",
+    "./*": "./gen/arg_services/*.js"
+  },
   "scripts": {
     "dev": "vite",
     "build": "buf generate && tsc && vite build",
     "preview": "vite preview",
     "prepack": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/recap-utr/arg-services-typescript.git"
-  },
-  "author": "Mirko Lenz <info@mirko-lenz.de>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/recap-utr/arg-services-typescript/issues"
-  },
-  "type": "module",
-  "files": [
-    "gen",
-    "dist"
-  ],
-  "exports": {
-    ".": "./dist/index.js",
-    "./google/*": "./gen/google/*.js",
-    "./*": "./gen/arg_services/*.js"
-  },
-  "homepage": "https://github.com/recap-utr/arg-services-typescript#readme",
-  "keywords": [
-    "microservices",
-    "grpc",
-    "protobuf",
-    "argumentation",
-    "graphs",
-    "cbr",
-    "nlp",
-    "similarity"
-  ],
   "dependencies": {
     "@bufbuild/protobuf": "^2",
     "@connectrpc/connect": "^2",
-    "uuid": "^13.0.0"
+    "uuid": "^14"
   },
   "devDependencies": {
     "@bufbuild/protoc-gen-es": "^2",
-    "@types/node": "^24.0.0",
-    "typescript": "^5",
-    "vite-plugin-dts": "^4",
-    "vite": "^7.0.0"
+    "@types/node": "^25",
+    "typescript": "^6",
+    "vite": "^8",
+    "vite-plugin-dts": "^5"
   }
 }
