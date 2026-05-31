@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.5](https://github.com/recap-utr/arg-services-typescript/compare/v4.0.4...v4.0.5) (2026-05-31)
+
+### Bug Fixes
+
+* **deps/npm:** update ([9f8dd7a](https://github.com/recap-utr/arg-services-typescript/commit/9f8dd7a0c8d8e952987a92b02f9d3d7455f5e8c3))
+
 ## [4.0.4](https://github.com/recap-utr/arg-services-typescript/compare/v4.0.3...v4.0.4) (2025-06-01)
 
 ### Bug Fixes
