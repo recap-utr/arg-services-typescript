@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.0.7](https://github.com/recap-utr/arg-services-typescript/compare/v4.0.6...v4.0.7) (2026-10-14)
+
+### Bug Fixes
+
+* trigger release ([2912ae9](https://github.com/recap-utr/arg-services-typescript/commit/2912ae902950f65cc4ef0fd5a7ce4c411b6b63f4))
+
 ## [4.0.6](https://github.com/recap-utr/arg-services-typescript/compare/v4.0.5...v4.0.6) (2026-10-14)
 
 ### Bug Fixes
