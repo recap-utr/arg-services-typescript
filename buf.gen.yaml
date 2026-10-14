@@ -5,10 +5,9 @@ clean: true
 inputs:
   - module: buf.build/recap/arg-services:v1.5.6
 plugins:
-  - local: ./node_modules/.bin/protoc-gen-es
+  - local: protoc-gen-es
     out: gen
     include_imports: true
     opt:
-      - target=js+dts
       - import_extension=js
       - json_types=true
