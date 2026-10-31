@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "@bufbuild/protoc-gen-es": "^2",
-    "@types/node": "^25",
+    "@types/node": "^26.0.0",
     "typescript": "^6",
     "vite": "^8",
     "vite-plugin-dts": "^5"
