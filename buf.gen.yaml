@@ -3,7 +3,7 @@ managed:
   enabled: true
 clean: true
 inputs:
-  - module: buf.build/recap/arg-services:v1.5.6
+  - module: buf.build/recap/arg-services:v1.6.0
 plugins:
   - local: protoc-gen-es
     out: gen
