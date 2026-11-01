@@ -41,9 +41,7 @@
     "prepack": "npm run build"
   },
   "dependencies": {
-    "@bufbuild/protobuf": "^2",
-    "@connectrpc/connect": "^2",
-    "uuid": "^14"
+    "@bufbuild/protobuf": "^2"
   },
   "devDependencies": {
     "@bufbuild/protoc-gen-es": "^2",
