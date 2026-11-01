@@ -1,7 +1,7 @@
 {
   "name": "arg-services",
   "version": "4.0.7",
-  "description": "Protobuf and gRPC definitions for microservice-based argumentation machines",
+  "description": "Protobuf, gRPC, and Connect definitions for microservice-based argumentation machines",
   "keywords": [
     "argumentation",
     "cbr",
@@ -17,7 +17,7 @@
     "url": "https://github.com/recap-utr/arg-services-typescript/issues"
   },
   "license": "MIT",
-  "author": "Mirko Lenz <info@mirko-lenz.de>",
+  "author": "Mirko Lenz <mirko@mirkolenz.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/recap-utr/arg-services-typescript.git"
