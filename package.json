@@ -1,6 +1,6 @@
 {
   "name": "arg-services",
-  "version": "4.0.7",
+  "version": "4.1.0",
   "description": "Protobuf, gRPC, and Connect definitions for microservice-based argumentation machines",
   "keywords": [
     "argumentation",

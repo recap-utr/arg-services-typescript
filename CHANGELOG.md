@@ -1,5 +1,15 @@
 # Changelog
 
+## [4.1.0](https://github.com/recap-utr/arg-services-typescript/compare/v4.0.7...v4.1.0) (2026-11-01)
+
+### Features
+
+* **deps:** bump arg-services to v1.6.0 ([93eaf7e](https://github.com/recap-utr/arg-services-typescript/commit/93eaf7e3807c24a09e0803f9ef81e093e7bd8263))
+
+### Bug Fixes
+
+* **deps:** deprecate uuid export in favor of crypto.randomUUID and drop unused dependencies ([9e0f615](https://github.com/recap-utr/arg-services-typescript/commit/9e0f61587dd47428c2c6bd4bb42d0b938b7c3dad))
+
 ## [4.0.7](https://github.com/recap-utr/arg-services-typescript/compare/v4.0.6...v4.0.7) (2026-10-14)
 
 ### Bug Fixes
