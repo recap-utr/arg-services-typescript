@@ -1,8 +1,12 @@
 {
+  "include": ["src"],
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "ES2025",
     "module": "NodeNext",
-    "lib": ["ESNext", "DOM"],
+    "lib": ["ES2025", "DOM"],
+    "types": [],
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
     "strict": true,
     "exactOptionalPropertyTypes": true,
     "noUncheckedIndexedAccess": true,
@@ -12,9 +16,8 @@
     "noUnusedParameters": true,
     "verbatimModuleSyntax": true,
     "erasableSyntaxOnly": true,
-    "resolveJsonModule": true,
-    "noEmit": true,
-    "skipLibCheck": true
-  },
-  "include": ["src"]
+    "declaration": true,
+    "rootDir": "src",
+    "outDir": "dist"
+  }
 }
